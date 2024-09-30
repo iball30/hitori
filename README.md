@@ -54,7 +54,7 @@ pkg install git
 pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
-git clone https://github.com/nazedev/hitori
+git clone https://github.com/iball30/hitori
 cd hitori
 npm install
 ```
