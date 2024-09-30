@@ -203,11 +203,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 		
 		// Filter Bot
 		if (m.isBot) return
-		
-		// Mengetik
-		if (db.set[botNumber].autotyping && isCmd) {
-			await naze.sendPresenceUpdate('composing', m.chat)
-		}
+		
 		
 		// Salam
 		if (/^a(s|ss)alamu('|)alaikum(| )(wr|)( |)(wb|)$/.test(budy?.toLowerCase())) {
